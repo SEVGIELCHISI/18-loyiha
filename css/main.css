@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(200, 221, 214);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.div1{
+    display: flex;
+    gap: 20px;
+
+}
+.div1 div{
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 1px 1px;
+    background-color: rgb(135, 216, 139);
+}
+
+
+
+
+/*  feccebok style start */
+
+.feccebok{
+    position: relative;
+}
+
+.feccebok .feccebok_icon{
+    position: absolute;
+    transition: 0.5s;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-radius: 0;
+
+}
+.feccebok:hover .feccebok_icon{
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-radius: 60px;
+    background-color: rgb(65, 65, 194);
+   
+}
+
+
+.feccebok #square_1{
+    position: absolute;
+    z-index: 2;
+    transition: 0.5s;
+    font-size: 100px;
+    color: rgb(65, 65, 194);
+   
+}
+.feccebok:hover #square_1{
+    transition: 0.7s;
+    font-size: 0px;
+
+    
+}
+
+#square_2{
+    position: absolute;
+    z-index: 3;
+    transition: 0.5s;
+    color: white;
+    font-size: 0px;
+    
+}
+.feccebok:hover #square_2{
+    font-size: 100px;
+    transition: 0.5s;
+}
+
+/* feccebok style end */
+
+
+
+
+/* twitter style start */
+
+.twitter{
+    position: relative;
+
+}
+.twitter .twitter_icon{
+    position: absolute;
+    transition: 0.5s;
+   width: 0;
+   height: 0;
+    box-shadow: 5px 3px 10px;
+    z-index: 1;
+}
+.twitter:hover .twitter_icon{
+   border-radius: 60px;
+    transition: 0.5s;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(189, 100, 100);
+}
+.twitter #icon_1{
+    position: absolute;
+    z-index: 2;
+    transition: 0.5s;
+    font-size: 100px;
+    color: rgb(189, 100, 100) ;
+   
+}
+.twitter:hover #icon_1{
+ font-size: 0;
+    transition: 0.7s;
+}
+
+
+ #icon_2{
+    position: absolute;
+    z-index: 3;
+    color: rgb(245, 244, 244);
+    transition: 0.5s;
+ font-size: 0px;
+}
+.twitter:hover #icon_2{
+    font-size: 100px;
+    transition: 0.5s;
+}
+
+
+
+/* twitter style end */
+
+
+
+/* google style start */
+
+.google{
+    position:relative;
+
+}
+.google .google_icon{
+    position: absolute;
+    z-index: 1;
+    transition: 0.5s;
+    width:  0px;
+    height: 10px;
+    box-shadow: 4px 3px 15px;
+   
+}
+
+.google:hover .google_icon{
+    border-radius: 60px;
+    background-color: rgb(228, 197, 228);
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+}
+
+
+#google_1{
+    position: absolute;
+    z-index: 2;
+    transition: 0.5;
+    font-size: 70px;
+    color: violet;
+    
+
+}
+.google:hover #google_1{
+    transition: 0.7s;
+    font-size: 0px;
+}
+#google_2{
+    position: absolute;
+    z-index: 3;
+    transition: 0.5s;
+    color: white;
+    font-size: 0;
+   
+  
+}
+.google:hover #google_2{
+    transition: 0.7s;
+    font-size: 70px;
+}
+
+/* google style end */
+
+
+
+/* internet style start */
+.internet{
+    position: relative;
+}
+.internet .internet_icon{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    box-shadow: 4px 3px 20px;
+    transition: 0.5s;
+    border-radius: 0;
+}
+.internet:hover .internet_icon{
+    background-color: rgb(36, 160, 209);
+    transition: 0.5s;
+    width: 100%;
+    height: 100%; 
+    border-radius: 60px;
+    left: 0;
+   
+}
+#atlas_1{
+    position: absolute;
+    z-index: 2;
+    color: rgb(36, 160, 209);
+    transition: 0.5s;
+    font-size: 70px;
+}
+.internet:hover #atlas_1 {
+    font-size: 0;
+    transition: 0.5s;
+}
+
+#atlas_2{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 0px;
+    transition: 0.5s;
+
+}
+.internet:hover #atlas_2{
+    font-size: 70px;
+    transition: 0.5s;
+}
+/* internet style end */
+
+
+
+
+
+/* sky style start */
+
+.skype{
+    position: relative;
+}
+
+.skype .skype_icon{
+    position: absolute;
+    z-index: 1;
+    transition: 1s;
+    width: 0;
+    height: 0;
+   box-shadow: 5px 4px 25px;
+    
+}
+.skype:hover .skype_icon{
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    background-color: royalblue;
+    border-radius: 60px;
+}
+#skype_1{
+    position: absolute ;
+    z-index: 2;
+    color: royalblue;
+    font-size: 80px;
+}
+.skype:hover #skype_1{
+    font-size: 0;
+    transition: 0.5s;
+}
+#skype_2{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 0;
+
+}
+.skype:hover #skype_2{
+    font-size: 80px;
+    transition: 0.5px;
+}
+/* skype style end */
+
+
+
+
+/* search style start */
+
+
+.search{
+    position: relative;
+
+}
+
+.search .search_icon{
+    position: absolute;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    transition: 0.5s;
+   
+    box-shadow: 5px 3px 30px;
+}
+.search:hover .search_icon{
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    background-color: hotpink;
+    right: 0;
+    top: 0;
+}
+#search_1{
+    position: absolute;
+    z-index: 2;
+    font-size: 80px;
+    color: hotpink;
+}
+
+
+.search:hover #search_1{
+    font-size: 0;
+    transition: 0.5s;
+}
+
+#search_2{
+    position: absolute;
+    z-index: 3;
+    font-size: 0;
+    transition: 0.5s;
+    color: white;
+
+}
+.search:hover #search_2{
+    font-size: 80px;
+    transition: 0.5s;
+}
+
